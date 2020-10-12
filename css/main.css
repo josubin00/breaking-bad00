@@ -1,0 +1,1047 @@
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+body {
+    position: relative;
+    width: 1920px;
+}
+
+
+
+
+#main_menu {
+    width: 1920px;
+    height: 980px;
+    background: url("../image/BG/main.jpg") no-repeat;
+    position: fixed;
+}
+
+
+#header {
+    width: 1798px;
+    height: 48px;
+    margin: 26px 0 0 62px;
+    display: flex;
+}
+
+#header .lang {
+    margin-left: 38px;
+}
+
+#header .vol {
+    margin-left: 1378px;
+}
+
+#header .ham {
+    margin-left: 28px;
+}
+
+
+/*header end*/
+
+
+#scene01 {
+    width: 1003px;
+    /*height: 713px;*/
+    margin: 90px 855px 104px 62px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 100;
+}
+
+/*타이틀라인*/
+#line_wrap  {
+    position: relative;
+    top: 100px;
+    left: 65px;
+    z-index: 200;
+}
+
+#line_wrap .first .title_box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 99px;
+}
+
+#line_wrap .first .title_box > div {
+    width: 1px;
+    height: 1px;
+    border: 1px solid #fff;
+    transition: all .6s ease;
+    position: absolute;
+}
+
+#line_wrap .first .title_box .left_line {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+#line_wrap .first .title_box .right_line {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+#line_wrap .first .title_box > div.on {
+    width: 48px;
+    height: 48px;
+}
+
+
+#line_wrap .second .title_box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 211px;
+    left: 152px;
+}
+
+#line_wrap .second .title_box > div {
+    width: 1px;
+    height: 1px;
+    border: 1px solid #fff;
+    transition: all .6s ease;
+    position: absolute;
+}
+
+#line_wrap .second .title_box .left_line {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+#line_wrap .second .title_box .right_line {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+#line_wrap .second .title_box > div.on {
+    width: 48px;
+    height: 48px;
+}
+
+
+#line_wrap .third .title_box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 408px;
+    left: 188px;
+}
+
+#line_wrap .third .title_box > div {
+    width: 1px;
+    height: 1px;
+    border: 1px solid #fff;
+    transition: all .6s ease;
+    position: absolute;
+}
+
+#line_wrap .third .title_box .left_line {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+#line_wrap .third .title_box .right_line {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+#line_wrap .third .title_box > div.on {
+    width: 48px;
+    height: 48px;
+}
+
+#line_wrap .fourth .title_box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 585px;
+    left: 73px;
+}
+
+#line_wrap .fourth .title_box > div {
+    width: 1px;
+    height: 1px;
+    border: 1px solid #fff;
+    transition: all .6s ease;
+    position: absolute;
+}
+
+#line_wrap .fourth .title_box .left_line {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+}
+
+#line_wrap .fourth .title_box .right_line {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #fff;
+    border-left-color: #fff;
+}
+#line_wrap .fourth .title_box > div.on {
+    width: 48px;
+    height: 48px;
+}
+
+/*타이틀라인*/
+
+#season .b1 {
+    margin: 0 0 30px 361px;
+}
+
+#season .season_01 {
+    margin-top: -20px;
+}
+
+#cast .title {
+    margin-top: 20px;
+}
+
+#cast .b1 {
+    margin: 0 0 30px 361px;
+}
+
+#cast .bryan {
+    margin-top: -20px;
+}
+
+#spin_off .title {
+    margin-top: 20px;
+}
+
+#spin_off .b1 {
+    margin: 0 0 22px 361px;
+}
+
+#spin_off .comics {
+    margin-top: -20px;
+}
+
+#music .title {
+    margin-top: 20px;
+}
+
+#music .b1 {
+    margin: 0 0 22px 361px;
+}
+
+#music .ost1 {
+    margin-top: -20px;
+}
+
+
+/*scene01 end*/
+
+
+#scene02 {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    height: 980px;
+    background: black;
+    display: none;
+    z-index: 200;
+}
+
+
+#scene02 .header {
+    width: 113px;
+    height: 48px;
+    float: right;
+    margin-right: 62px;
+    margin-top: 26px;
+}
+
+#scene02 .ham_btn {
+    float: left;
+}
+
+#scene02 .close {
+    float: right;
+}
+
+
+#scene02 .footer {
+    width: 1920px;
+    position: absolute;
+    bottom: 62px;
+    display: flex;
+}
+
+#scene02 .footer .blog {
+    margin-left: 178px;
+}
+
+#scene02 .footer .netflix {
+    margin-left: 74px;
+}
+
+#scene02 .footer .facebook {
+    margin-left: 1159px;
+}
+
+#scene02 .footer .youtube {
+    margin-left: 18px;
+}
+
+#scene02 .footer .twitter {
+    margin-left: 18px;
+}
+
+
+#scene02 .ham_wrap {
+    width: 1575px;
+    height: 463px;
+    margin: 209px 0 0 176px;
+    display: flex;
+}
+
+#scene02 .ham_wrap .ham_season {
+    display: flex;
+    flex-direction: column;
+}
+
+#scene02 .ham_wrap .ham_spinoff {
+    margin-left: 127px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#scene02 .ham_wrap .ham_cast {
+    margin-left: 112px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#scene02 .ham_wrap .ham_music {
+    margin-left: 116px;
+    display: flex;
+    flex-direction: column;
+}
+
+#scene02 .ham_wrap .title {
+    margin-bottom: 85px;
+}
+
+#scene02 .ham_wrap .b1 {
+    margin-bottom: 42px;
+}
+
+
+/*scene02 end*/
+
+
+#scene03 {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    height: 1400px;
+    background: black;
+    display: none;
+    z-index: 200;
+}
+
+
+#scene03 .close {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 300;
+}
+
+
+#scene03 .wrap_03 {
+    width: 1840px;
+    height: 1310px;
+    margin: 38px 40px 0 40px;
+}
+
+#scene03 .wrap_03 .fix {
+    position: fixed;
+    filter: url(#filter);
+}
+
+#scene03 .wrap_03 .lineB {
+    position: fixed;
+    margin-left: 641px
+}
+
+
+#scene03 .wrap_03 .article {
+    float: right;
+    width: 1129px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#scene03 .wrap_03 .article .b1 {
+    margin: 0 0 27px 28px;
+}
+
+#scene03 .wrap_03 .article .b2 {
+    margin-left: 0px;
+}
+
+
+#scene03 .wrap_03 .line {
+    width: 559px;
+    height: 1310px;
+    margin-left: 970px;
+    display: flex;
+}
+
+
+#scene03 .wrap_03 .line .line2 {
+    margin-left: 255px;
+    margin-top: 616px;
+}
+
+#scene03 .wrap_03 .line .line3 {
+    margin-left: 254px;
+}
+
+
+/*scene03 end*/
+
+
+#scene04 {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    height: 1960px;
+    background: black;
+    display: none;
+    z-index: 200;
+}
+
+#scene04 .close {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 400;
+}
+
+#scene04 .wrap_04 {
+    width: 1840px;
+    height: 1920px;
+    margin: 38px 40px 0 40px;
+}
+
+#scene04 .wrap_04 .fix {
+    position: fixed;
+}
+
+#scene04 .wrap_04 .lineB {
+    position: fixed;
+    margin-left: 641px
+}
+
+
+#scene04 .wrap_04 .article {
+    float: right;
+    width: 1129px;
+    height: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#scene04 .wrap_04 .article .b1 {
+    margin: 0 28px 0 0;
+}
+
+#scene04 .wrap_04 .article .b2 {
+    margin-left: 0;
+}
+
+#scene04 .wrap_04 .article .jessi06 {
+    margin-top: -209px;
+}
+
+#scene04 .wrap_04 .article .jessi07 {
+    margin-top: -78px;
+    filter: url(#filter);
+}
+
+#scene04 .wrap_04 .article .jessi10 {
+    margin-top: -323px;
+}
+
+
+#scene04 .wrap_04 .line {
+    margin-left: 711px;
+    display: flex;
+}
+
+#scene04 .wrap_04 .line .line1 {
+    margin-left: 255px;
+}
+
+#scene04 .wrap_04 .line .line2 {
+    margin-left: 254px;
+}
+
+#scene04 .wrap_04 .line .line3 {
+    margin-left: 254px;
+    margin-top: 455px;
+}
+
+
+/*scene04 end*/
+
+
+#scene05 {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    height: 3278px;
+    display: none;
+    z-index: 600;
+    background-color: #000;
+}
+
+#scene05 .wrap_05 {
+    display: flex;
+    box-sizing: content-box;
+}
+
+#scene05 .scroll_left {
+    width: 766px;
+    height: 3278px;
+    z-index: 500;
+    background-color: black;
+}
+
+#scene05 .scroll_left .left4{
+    width: 688px;
+    height: 110px;
+    margin-top: 208px;
+    padding: 55px 0 55px 78px;
+    background-color: cyan;
+}
+
+
+#scene05 .close {
+    position: fixed;
+    right: 0px;
+    z-index: 900;
+}
+
+#scene05 #right_king_text .king_hover {
+    width: 1800px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-720px);
+
+}
+
+#scene05 #right_king_text .king_hover:hover {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+/*scene05 end*/
+
+
+#scene06 {
+    width: 100%;
+    height: 980px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: black;
+    display: none;
+    z-index: 9999;
+}
+
+
+#scene06 .inner {
+    width: 6430px;
+    height: 980px;
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+
+#scene06 .inner .close {  position: fixed;}
+#scene06 .inner .floor1 {
+    height: 980px;
+    display: flex;
+}
+
+#scene06 .inner  .floor1 .scene06_main {
+    width: 1920px;
+    height: 980px;
+    background: url("../image/episode/episode-1-1.png") no-repeat left center;
+}
+
+#scene06 .inner  .floor1 .scene06_main_text {    margin: 97px 0 300px 117px;}
+#scene06 .inner  .floor1 .scene06_main_title {    margin: 0 0 93px 117px;}
+
+
+
+#scene06 .scene06_title {    width: 960px;    height: 100%;}
+#scene06 .scene06_title .scene06_title_heiesnberg {    margin: 200px 187px 62px 137px;}
+#scene06 .scene06_title .scene06_title_hei-by {    margin: 0 187px 105px 137px;}
+#scene06 .scene06_title .scene06_title_title{    margin: 0 187px 0 137px;}
+
+
+
+#scene06 .scene06_text {
+    width: 550px;
+    height: 100%;
+    background: #00fde2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#scene06 .scene06_text .scene06_div_text1{    margin-top: 88px;}
+#scene06 .scene06_text .scene06_div_text3{    margin-top: auto;    margin-bottom: 88px;}
+#scene06 .scene06_text .black_box {
+    background-color: black;
+    width: 301px;
+    height: 4px;
+    margin: 48px 0;
+}
+
+
+#scene06 .scene06_jessi {
+    width: 1504px;
+    height: 100%;
+    background: url("../image/episode/episode-jessi.png") no-repeat;
+}
+#scene06 .scene06_jessi .scene06_jessi_pure{    margin-top: 573px;}
+#scene06 .scene06_jessi .scene06_jessi_text{    margin-top: 94px;}
+
+
+
+/*scene06 end*/
+
+
+#scene07 {
+    position: absolute;
+    left: 0px;
+    width: 1920px;
+    height: 100%;
+    background: url("../image/music/music_BG.jpg") no-repeat;
+    display: none;
+    z-index: 200;
+    overflow-y: hidden;
+}
+
+#scene07 .close {
+    position: fixed;
+    right: 0;
+    z-index: 300;
+}
+
+
+#scene07 .wrap_07 {
+    display: flex;
+}
+
+#scene07 .wrap_07 .play_list {
+    width: 590px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#scene07 .wrap_07 .play_list .list_title1 {
+    padding-top: 50px;
+}
+
+#scene07 .wrap_07 .play_list .list_all {
+    transition: all 1.5s;
+    position: absolute;
+    bottom: -830px;
+    left: 80px;
+}
+
+#scene07 .list_all.on {
+    transform: translateY(-800px);
+}
+
+
+#scene07 .wrap_07 #music_track {
+    width: 1011px;
+    height: 100%;
+    margin-left: 159px;
+}
+
+
+/*scene07 end*/
+
+
+#scene08 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1960px;
+    background: black;
+    display: none;
+    z-index: 200;
+}
+
+#scene08 .close {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 400;
+}
+
+#scene08 .wrap_08 {
+    width: 1840px;
+    height: 1922px;
+    margin: 38px 40px 0 40px;
+}
+
+#scene08 .wrap_08 .fix {
+    position: fixed;
+}
+
+#scene08 .wrap_08 .lineB {
+    position: fixed;
+    margin-left: 641px
+}
+
+
+#scene08 .wrap_08 .article {
+    float: right;
+    width: 1129px;
+    height: 1922px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#scene08 .wrap_08 .article .b1 {
+    margin: 0 28px 0 0;
+}
+
+#scene08 .wrap_08 .article .b2 {
+    margin-left: 0;
+}
+
+#scene08 .wrap_08 .article .spin_margin {
+    margin-top: -60px;
+}
+
+#scene08 .wrap_08 .article .spin_margin2 {
+    margin-top: -35px;
+    filter: url(#filter);
+}
+
+#scene08 .wrap_08 .article .spin_margin3 {
+    margin-top: -66px;
+}
+
+#scene08 .wrap_08 .article .spin_margin4 {
+    margin-top: -198px;
+}
+
+
+#scene08 .wrap_08 .line {
+    margin-left: 711px;
+    display: flex;
+}
+
+#scene08 .wrap_08 .line .line1 {
+    margin-left: 254px;
+}
+
+#scene08 .wrap_08 .line .line2 {
+    margin-left: 254px;
+}
+
+#scene08 .wrap_08 .line .line3 {
+    margin-left: 254px;
+    margin-top: 580px;
+}
+
+
+/*scene08 end*/
+
+
+#scene09 {
+    width: 100%;
+    height: 980px;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 9999;
+}
+
+
+#scene09 .inner {
+    width: 6430px;
+    height: 980px;
+    position : absolute;
+    left: 0;
+    top: 0;
+    background: black;
+}
+
+#scene09 .inner .close {  position: fixed;}
+#scene09 .inner .floor1 {   height: 980px;    display: flex;}
+
+#scene09 .inner  .floor1 .scene06_main {
+    width: 1920px;
+    height: 980px;
+}
+
+
+#scene09 .scene09_title {    width: 960px;    height: 100%;}
+#scene09 .scene09_title .scene09_title_ricin {    margin: 200px 187px 62px 137px;}
+#scene09 .scene09_title .scene09_title_ricin-by {    margin: 0 187px 105px 137px;}
+
+
+#scene09 .scene09_photo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#scene09 .scene09_text {
+    width: 550px;
+    height: 100%;
+    background: #00fde2;
+
+}
+
+
+#scene09 .scene09_photo3 {
+    width: 1233px;
+    height: 100%;
+    background: url("../image/episode4/episode-1-1.png") no-repeat;
+    display: flex;
+
+}
+#scene09 .scene09_photo3 .scene09_3_photo {  margin-top: 694px;}
+#scene09 .scene09_photo1 {    width: 870px; flex-direction: column;}
+
+
+
+/*scene09 end*/
+
+
+
+#scene10 {
+    width: 100%;
+    height: 980px;
+    position: relative;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 200;
+}
+
+
+#scene10 .inner {
+    width: 6430px;
+    height: 980px;
+    position : absolute;
+    left: 0;
+    top: 0;
+    background: black;
+}
+
+#scene10 .inner .close {  position: fixed;}
+#scene10 .inner .floor1 {   height: 980px;    display: flex;}
+
+#scene10 .inner  .floor1 .scene10_main {
+    width: 1920px;
+    height: 980px;
+}
+
+
+#scene10 .scene10_title {    width: 960px;    height: 100%;}
+#scene10 .scene10_title .scene10_title_king {    margin: 200px 187px 62px 137px;}
+#scene10 .scene10_title .scene10_title_king-by {    margin: 0 187px 105px 137px;}
+
+
+
+#scene10 .scene10_text {
+    width: 575px;
+    height: 100%;
+    background: #00fde2;
+}
+
+
+#scene10 .scene10_photo4 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#scene10 .scene10_photo4_text {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#scene10 .scene10_photo4_text {
+    opacity: 0;
+    transition: all 1s;
+}
+#scene10  .scene10_photo4_text:hover {
+    opacity: 1;
+}
+
+/*scene10 end*/
+
+
+#scene11 {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    height: 3278px;
+    background: black;
+    display: none;
+    z-index: 200;
+}
+
+#scene11 .wrap_11 {
+    display: flex;
+    box-sizing: content-box;
+}
+
+#scene11 .scroll_left {
+    background: black url("../image/cast/cast_gallary-BG.jpg") no-repeat;
+    width: 766px;
+    z-index: 200;
+    margin-top: -30px;
+}
+
+#scene11 .scroll_right {
+    margin-top: 30px;
+}
+
+#jessi_text2, #jessi_text3 {
+    margin-left: 20px;
+}
+
+
+#scene11 .close {
+    position: fixed;
+    right: 0px;
+    z-index: 300;
+}
+
+
+#scene11 #right_jessi_text .jessi_hover {
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    height: 2000px;
+    width: 1100px;
+    transition: all 1s ease-in-out;
+    transform: translateY(-1109px);
+}
+
+#scene11 #right_jessi_text .jessi_hover:hover {
+    opacity: 100;
+    transform: translateY(0px);
+}
+
+
+/*scene11 end*/
+
+
+#scene12 {
+    position: absolute;
+    right: 0px;
+    width: 1920px;
+    height: 3278px;
+    background: black;
+    display: none;
+    z-index: 200;
+}
+
+#scene12 .wrap_12 {
+    display: flex;
+    box-sizing: content-box;
+}
+
+#scene12 .scroll_left {
+    background: black url("../image/cast/cast_gallary-BG.jpg") no-repeat;
+    width: 766px;
+    z-index: 200;
+    margin-top: -30px;
+}
+
+#scene12 .scroll_right {
+    margin-top: 30px;
+}
+
+#scene12 .boss_hover {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    height: 1000px;
+    width: 1700px;
+    transition: all 1s ease-in-out;
+    transform: translateX(-700px);
+}
+
+#scene12 .boss_hover:hover {
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+#boss_text2 {
+    margin-top: 20px;
+}
+
+
+#scene12 .close {
+    position: fixed;
+    right: 0px;
+    z-index: 300;
+}
+
+/*scene12 end*/
